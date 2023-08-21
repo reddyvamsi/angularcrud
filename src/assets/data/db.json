@@ -1,0 +1,25 @@
+{
+    "produts": [
+      { "id": 1,
+       "name": "mobile",
+        "prise": "10000",
+        "barnd":"RED MI"
+     },
+     { "id": 2,
+     "name": "mobile",
+      "prise": "100000",
+      "barnd":"Iphone14"
+   },
+   { "id": 3,
+   "name": "mobile",
+    "prise": "40000",
+    "barnd":"Onepulse"
+ }, 
+ { 
+ "id": 4,
+ "name": "mobile",
+  "prise": "500000",
+  "barnd":"samsung"
+}
+    ]
+  }
