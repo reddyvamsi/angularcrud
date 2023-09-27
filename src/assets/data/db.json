@@ -1,25 +1,56 @@
 {
     "produts": [
       { "id": 1,
-       "name": "mobile",
-        "prise": "10000",
-        "barnd":"RED MI"
+       "categoryId":1,
+       "productname": "casuval Tshirts",
+        "prise": "540",
+        "ProductImg":"http://localhost:4200/assets/casuval.webp",
+        "isavaliable":true,
+        "color":"red",
+        "reviews":10
      },
+
      { "id": 2,
-     "name": "mobile",
-      "prise": "100000",
-      "barnd":"Iphone14"
+       "categoryId":2,
+       "productname": "http://localhost:4200/assets/casuva2.webp",
+        "prise": "520",
+        "ProductImg":"",
+        "isavaliable":true,
+        "color":"red",
+        "reviews":10
+     },
+
+     { "id": 3,
+     "categoryId":3,
+     "productname": "polo Tshirts",
+      "prise": "2500",
+      "ProductImg":"http://localhost:4200/assets/polo1.jpg",
+      "isavaliable":true,
+      "color":"red",
+      "reviews":10
    },
-   { "id": 3,
-   "name": "mobile",
-    "prise": "40000",
-    "barnd":"Onepulse"
- }, 
- { 
- "id": 4,
- "name": "mobile",
-  "prise": "500000",
-  "barnd":"samsung"
-}
+
+   { "id": 4,
+   "categoryId":4,
+   "productname": "polo Tshirts",
+    "prise": "1000",
+    "ProductImg":"http://localhost:4200/assets/polo2.jpg",
+    "isavaliable":true,
+    "color":"res",
+    "reviews":8
+ },
+ 
+ { "id": 5,
+       "categoryId":5,
+       "productname": "casuval Tshirts",
+        "prise": "790",
+        "ProductImg":"http://localhost:4200/assets/casuval3.webp",
+        "isavaliable":true,
+        "color":"red",
+        "reviews":9
+     }
     ]
+
+
+    
   }

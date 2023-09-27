@@ -10,14 +10,13 @@ import { ViewallproductsComponent } from './viewallproducts/viewallproducts.comp
 import { DeleteProductComponent } from './delete-product/delete-product.component';
 
 const routes: Routes = [
-  { path: '', component: ProductsComponent },
+  { path: '', component:ViewallproductsComponent },
   {path:'view-product/:id', component:ViewproductComponent},
   {path:'create-product', component:CreateproductComponent},
   {path:'update-product/:id', component:UpdateproductComponent},
-  {path:'searchcatagory', component:ViewAllProductsByCatagoryComponent},
+  {path:'searchcatagory/:id', component:ViewAllProductsByCatagoryComponent},
   {path:'search-date', component:ViewAllProductsByDateComponent},
-  {path:'list-product', component:ViewallproductsComponent},
-  {path:'delete-product', component:DeleteProductComponent}
+  {path:'delete-product/id', component:DeleteProductComponent}
 ];
 
 @NgModule({

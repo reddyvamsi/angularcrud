@@ -1,17 +1,58 @@
-<p>createproduct works!</p>
-<form>
-    <div class="form-group">
-      <label for="exampleInputEmail1">Email address</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+<form  (submit)="addNewproduct(addproduct)" #addproduct="ngForm" class="mb-5 mt-2">
+  <div class="row">
+    <div class="col-md-6 mb-3">
+      <label>Product Name</label>
+      <input type="text" class="form-control" id="prodname" required name="product_name" ngModel
+        placeholder="product Name">
     </div>
-    <div class="form-group">
-      <label for="exampleInputPassword1">Password</label>
-      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    <div class="col-md-6 mb-3">
+      <label>Catagory Id</label>
+      <input type="text" class="form-control" id="catId" required name="product_catagoryid" ngModel
+        placeholder="CatagoryId">
     </div>
-    <div class="form-group form-check">
-      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    <div class="col-md-6 mb-3">
+     <label>Description</label>
+     <textarea type="text" class="form-control" id="description" ngModel required name="product_description">
+      </textarea>
     </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </form>
+    <div class="col-md-6 mb-3">
+      <label>Rating</label>
+      <select class="coustom-select form-control" required name="product_rating" ngModel>
+        <option selected value="">choose....</option>
+           <option>1</option>
+           <option>2</option>
+           <option>3</option>
+           <option>4</option>
+           <option>5</option>
+      </select>
+    </div>
+    <div class="col-md-6 mb-3">
+      <label>Product color</label>
+      <input type="text" class="form-control" required name="product_color" ngModel>
+    </div>
+    <div class="col-md-6 mb-3">
+      <label>Is Avaliable</label>
+      <select class="form-control" required name="product_isavaliable" ngModel>
+        <option selected value=""></option>
+        <option>true</option>
+        <option>false</option>
+      </select>
+    </div>
+      <div class="col-md-6 mb-3">
+        <label>Product price</label>
+        <input type="text" class="form-control" required name="product_price" ngModel>
+      </div>
+      <div class="col-md-6">
+        <label>product Review</label>
+           <select class="form-control" name="product_reviews" ngModel>
+            <option selected value=""></option> 
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+           </select>
+      </div>
+  </div>
+  <button type="submit" class=" c,ol-lg-6 btn btn-primary form-control  mt-2">Submit</button>
+</form>

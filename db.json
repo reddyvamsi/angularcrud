@@ -1,0 +1,107 @@
+{
+  "products": [
+    {
+      "productId": 1,
+      "catagoryId": 2,
+      "productname": "casuval Tshirts",
+      "prise": "540",
+      "ProductImg": "http://localhost:4200/assets/casuval.webp",
+      "isavaliable": true,
+      "color": "red",
+      "reviews": 10
+    },
+    {
+      "productId": 2,
+      "catagoryId": 2,
+      "productname": "casuval Tshirts",
+      "prise": "520",
+      "ProductImg": "http://localhost:4200/assets/casuval2.webp",
+      "isavaliable": true,
+      "color": "red",
+      "reviews": 10
+    },
+    {
+      "productId": 3,
+      "catagoryId": 1,
+      "productname": "polo Tshirts",
+      "prise": "2500",
+      "ProductImg": "http://localhost:4200/assets/polo1.jpg",
+      "isavaliable": true,
+      "color": "red",
+      "reviews": 10
+    },
+    {
+      "productId": 4,
+      "catagoryId": 1,
+      "productname": "polo Tshirts",
+      "prise": "1000",
+      "ProductImg": "http://localhost:4200/assets/polo2.jpg",
+      "isavaliable": true,
+      "color": "res",
+      "reviews": 8
+    },
+    {
+      "productId": 5,
+      "catagoryId": 2,
+      "productname": "casuval Tshirts",
+      "prise": "790",
+      "ProductImg": "http://localhost:4200/assets/casuval3.webp",
+      "isavaliable": true,
+      "color": "red",
+      "reviews": 9
+    },
+    {
+      "productId": 20,
+      "catagoryId": "2",
+      "productname": "sports",
+      "description": "dffdsdddddddd",
+      "rating": "4",
+      "prise": "2345",
+      "productImg": "",
+      "isavaliable": "false",
+      "color": "red",
+      "reviews": "3"
+    },
+    {
+      "productId": 24,
+      "catagoryId": "2",
+      "productname": "casuval",
+      "description": "ddddddddddddddddd",
+      "rating": "2",
+      "prise": "1233",
+      "productImg": "",
+      "isavaliable": "false",
+      "color": "white",
+      "reviews": "2"
+    },
+    {
+      "productId": 7,
+      "catagoryId": "2",
+      "productname": "polo",
+      "description": "nmqsmjhjhj",
+      "rating": "5",
+      "prise": "2000",
+      "productImg": "",
+      "isavaliable": "true",
+      "color": "red,",
+      "reviews": "5"
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "name": "polo Tsharts"
+    },
+    {
+      "id": 2,
+      "name": "casuval Tsharts"
+    },
+    {
+      "id": 3,
+      "name": "Max Tsharts"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
